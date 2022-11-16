@@ -1,0 +1,18 @@
+import nft1 from './nft01.png'
+import nft2 from './nft02.png'
+import nft3 from './nft03.png'
+import nft4 from './nft04.png'
+import nft5 from './nft05.png'
+import nft6 from './nft06.png'
+import nft7 from './nft07.png'
+import nft8 from './nft08.png'
+import nft9 from './nft09.png'
+import nft10 from './nft10.png'
+import nft11 from './nft11.png'
+import nft12 from './nft12.png'
+import nft13 from './nft13.png'
+import nft14 from './nft14.png'
+import nft15 from './nft15.png'
+import nft16 from './nft16.png'
+
+export { nft1, nft2, nft3, nft4, nft5, nft6, nft7, nft8, nft9, nft10, nft11, nft12, nft13, nft14 ,nft15, nft16 }
