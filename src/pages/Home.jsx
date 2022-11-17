@@ -72,17 +72,20 @@ const Home = () => {
             <img
               src={mbtokenIcon}
               alt="mbtoken"
-              className="h-auto w-full md:max-w-[12rem]"
+              // className="h-auto w-full md:max-w-[12rem]"
+              className="w-auto"
               />
             <img
               src={metamaskIcon}
               alt="metamask"
-              className="h-auto w-full md:max-w-[12rem]"
+              className="w-auto"
+              // className="h-auto w-full md:max-w-[12rem]"
               />
             <img
               src={openseaIcon}
               alt="opensea"
-              className="h-auto w-full md:max-w-[12rem]"
+              className="w-auto"
+              // className="h-auto w-full md:max-w-[12rem]"
             />
           </div>
         </div>
