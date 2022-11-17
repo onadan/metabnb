@@ -14,7 +14,7 @@ const Navbar = ({ handleClick }) => {
   };
 
   return (
-    <div className="fixed bg-white w-full shadow-lg">
+    <div className="fixed bg-white w-full shadow-lg z-50">
       <div className="max-w-[1240px]  mx-auto px-4 py-3 bg-white z-50 ">
         <div className="flex justify-between items-center gap-2">
           <Link to="/">

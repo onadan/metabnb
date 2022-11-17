@@ -5,7 +5,7 @@ import { nftImages } from "../data";
 const PlaceToStay = () => {
   return (
     <div className="max-w-[1240px] w-full mx-auto px-4 pt-20 pb-2">
-      <div className="py-5 grid grid-cols-3 md:flex justify-between flex-wrap items-center font-medium gap-4">
+      <div className="pt-10 pb-5 grid grid-cols-3 md:flex justify-between flex-wrap items-center font-medium gap-4">
         <li>Restaurant</li>
         <li>Cottage</li>
         <li>Castle</li>
