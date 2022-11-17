@@ -68,24 +68,22 @@ const Home = () => {
 
       <div className="bg-[#A02279] w-full ">
         <div className="max-w-[1240px] mx-auto p-2 ">
-          <div className="flex justify-between items-center gap-20 overflow-hidden flex-">
+          <div className="flex justify-between items-center gap-12 overflow-hidden flex-">
             <div>
-              <img src={mbtokenIcon} alt="mbtoken" className="w-auto h-full" />
+              <img src={mbtokenIcon} alt="mbtoken" className="h-auto w-full" />
             </div>
             <div>
               <img
                 src={metamaskIcon}
                 alt="metamask"
-                className="w-auto h-full"
-                // className="h-auto w-full md:max-w-[12rem]"
-              />
+                className="h-auto w-full"
+                />
             </div>
             <div>
               <img
                 src={openseaIcon}
                 alt="opensea"
-                className="w-auto h-full"
-                // className="h-auto w-full md:max-w-[12rem]"
+                className="h-auto w-full"
               />
             </div>
           </div>
