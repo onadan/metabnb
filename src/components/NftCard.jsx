@@ -2,8 +2,8 @@ import { FaStar } from "react-icons/fa";
 
 const NftCard = ({ image }) => {
   return (
-    <div className="w-[292px] h-[372px] border rounded-lg p-4">
-      <div className="w-[260px] h-[265px]">
+    <div className="w-[280px] h-[380px] border rounded-lg p-4 overflow-hidden">
+      <div className="w-full h-auto">
         {image ? (
           <img src={image} alt="nft_image" className="object-cover" />
         ) : (
