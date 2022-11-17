@@ -69,24 +69,25 @@ const Home = () => {
       <div className="bg-[#A02279] w-full ">
         <div className="max-w-[1240px] mx-auto p-2 ">
           <div className="flex justify-between items-center gap-20 overflow-hidden flex-">
-            <img
-              src={mbtokenIcon}
-              alt="mbtoken"
-              // className="h-auto w-full md:max-w-[12rem]"
-              className="w-auto"
+            <div>
+              <img src={mbtokenIcon} alt="mbtoken" className="w-auto h-full" />
+            </div>
+            <div>
+              <img
+                src={metamaskIcon}
+                alt="metamask"
+                className="w-auto h-full"
+                // className="h-auto w-full md:max-w-[12rem]"
               />
-            <img
-              src={metamaskIcon}
-              alt="metamask"
-              className="w-auto"
-              // className="h-auto w-full md:max-w-[12rem]"
+            </div>
+            <div>
+              <img
+                src={openseaIcon}
+                alt="opensea"
+                className="w-auto h-full"
+                // className="h-auto w-full md:max-w-[12rem]"
               />
-            <img
-              src={openseaIcon}
-              alt="opensea"
-              className="w-auto"
-              // className="h-auto w-full md:max-w-[12rem]"
-            />
+            </div>
           </div>
         </div>
       </div>
@@ -97,9 +98,9 @@ const Home = () => {
         </header>
         <div className="flex justify-center w-full">
           <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {mainNftImages.map((item) => (
-            <NftCard image={item.image} key={item.id} />
-          ))}
+            {mainNftImages.map((item) => (
+              <NftCard image={item.image} key={item.id} />
+            ))}
           </div>
         </div>
       </section>
