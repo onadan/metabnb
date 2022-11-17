@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       <main className="pt-20 max-w-[1240px] w-full mx-auto px-10 py-4 ">
-        <div className="flex justify-center items-center md:grid md:grid-cols-9 mx-auto py-10">
+        <div className="flex justify-center items-center md:grid md:grid-cols-9 mx-auto py-10 text-[#434343]">
           <div className="md:col-span-5">
             <p className="text-4xl pb-8 leading-normal md:leading-relaxed md:text-5xl max-w-[45rem] font-semibold">
               Rent a <span className="text-[#A02279]">Place</span> away from{" "}

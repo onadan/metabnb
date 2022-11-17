@@ -2,7 +2,7 @@ import { fbIcon, footerLogo, inIcon, twIcon } from "../assets/icons";
 
 const Footer = () => {
   return (
-    <div className="bg-black p-4 min-h-[10rem]">
+    <div className="bg-[#1d1d1e] p-4 min-h-[10rem]">
       <div className="max-w-[1240px] w-full mx-auto px-4 py-2">
         <div className="flex justify-center items-center w-full">
           <div className="grid grid-cols-2 md:grid-cols-4 text-white justify-between items-center gap-6 w-full">
